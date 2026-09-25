@@ -48,7 +48,7 @@ app.use("/wakams", require("./routes/music"));
 app.use("/blog", require("./routes/blog"));
 
 app.get('/login', (req, res) => {
-    res.render('home/login');
+    res.render('wakame');
 });
 
 app.get('/watch', (req, res) => {
