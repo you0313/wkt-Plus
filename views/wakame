@@ -40,6 +40,7 @@
         <li>・パスワード共有は厳禁です。</li>
         <li>・不正アクセスが検出された場合、記録されます。</li>
         <li>・ログインすることで、アクセス解析等のための<br>Cookie使用に同意したものとみなされます。</li>
+        <li>・城北生徒以外が使用した場合、記録されます。</li>
      </ul>
     </div>
     <div class="flex flex-col justify-center p-8 max-w-lg w-full mx-auto animate-fadeIn">
@@ -72,7 +73,7 @@
         <div id="loadingSpinner" class="hidden mt-4 flex justify-center">
           <div class="w-6 h-6 border-4 border-blue-300 border-t-blue-600 rounded-full animate-spin"></div>
         </div>
-        <p id="errorMsg" class="text-red-600 text-sm mt-4 hidden">コードが違います。再確認してください。</p>
+        <p id="errorMsg" class="text-red-600 text-sm mt-4 hidden">うぉ何かが違うようです。再確認してください。</p>
         <div id="touchIdFake" class="hidden mt-6 text-center text-sm text-gray-500">
           <p>システム確認中...</p>
           <p>アカウントを確認しています...</p>
